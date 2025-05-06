@@ -38,4 +38,12 @@ class TestController extends BaseController
         ];
         return view('auth/v_signup.php', $data);
     }
+
+    public function landing() 
+    {
+        $data = [
+            'judul' => 'Slogan abcdefg hijklmn lalalala'
+        ];
+        return view('general/v_landing_pages', $data);
+    }
 }

@@ -17,10 +17,15 @@
 
 /* DEFAULT STYLE */
 * {
-    font-family: "Jost", "Arial Narrow", Arial, sans-serif;
+    font-family: "Jost", Arial, sans-serif;
 }
 
 .font-heading {
     font-family: "Gothic", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
+}
+
+.maincontent {
+    min-height: 80vh;
+    background-color: azure;
 }

@@ -17,4 +17,9 @@ class TestController extends BaseController
     {
         return view('admin/v_admin_template');
     }
+
+    public function super() 
+    {
+        return view('super/v_super_template');
+    }
 }

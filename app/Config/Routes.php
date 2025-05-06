@@ -10,5 +10,6 @@ use CodeIgniter\Router\RouteCollection;
 // TESTING
 $routes->get('/', 'TestController::index');
 $routes->get('/admin', 'TestController::admin');
+$routes->get('/super', 'TestController::super');
 
 

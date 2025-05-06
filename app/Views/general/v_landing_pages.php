@@ -31,6 +31,7 @@
 
 <!-- DESTINASI POPULER -->
 <!-- Berisikan daftar 4 kota dengan destinasi terpopular -->
+
 <section class="popular-destinations" style="padding: 60px 0; background-color: #F8F9FA;">
     <div class="container">
         <h2 class="font-heading text-center mb-5">Destinasi Populer</h2>
@@ -60,6 +61,7 @@
 <!--  -->
 
 <!-- HOTEL POPULAR -->
+
 <section class="featured-hotels" style="padding: 60px 0;">
     <div class="container">
         <div class="d-flex justify-content-between align-items-center mb-4">
@@ -79,6 +81,31 @@
         </div>
     </div>
 </section>
+
+<!-- HOTEL POPULAR ENDS -->
+
+<!-- HOTEL POPULAR -->
+
+<section class="featured-hotels" style="padding: 60px 0;">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="font-heading mb-0">Hotel Paling Populer</h2>
+            <a href="<?= base_url('/hotels') ?>" class="btn btn-outline-dark">Lihat Semua</a>
+        </div>
+        
+        <div class="row">
+            <?php 
+            for ($jmlku = 0; $jmlku < 4; $jmlku++) {
+            //foreach ($hotels as $hotel): ?>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+
+                <?= view('components/cs_card_hotel') ?> 
+            </div>
+            <?php } //endforeach; ?>
+        </div>
+    </div>
+</section>
+
 <!-- HOTEL POPULAR ENDS -->
 
 <?php echo $this->endSection() ?>

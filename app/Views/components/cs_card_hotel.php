@@ -50,7 +50,7 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     overflow: hidden;
-    background: white;
+    background-color: white;
     cursor: pointer;
     transition: all 0.3s ease;
     display: flex;

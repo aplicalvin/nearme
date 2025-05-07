@@ -17,20 +17,15 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="<?= base_url('/') ?>" style="color: #E7E7E7;">
-                        <i class="fas fa-home me-1"></i> Beranda
-                    </a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="<?= base_url('/hotels') ?>" style="color: #E7E7E7;">
-                        <i class="fas fa-search me-1"></i> Jelajahi Hotel
+                        <i class="fas fa-search me-1"></i> Hotel
                     </a>
                 </li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
                        data-bs-toggle="dropdown" aria-expanded="false" style="color: #E7E7E7;">
-                        <i class="fas fa-map-marker-alt me-1"></i> Destinasi
+                        <i class="fas fa-map-marker-alt me-1"></i>Jelajahi Kota
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #2D2D2D;">
                         <li><a class="dropdown-item" href="#" style="color: #E7E7E7;">Bali</a></li>

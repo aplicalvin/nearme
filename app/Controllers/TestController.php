@@ -46,4 +46,14 @@ class TestController extends BaseController
         ];
         return view('general/v_landing_pages', $data);
     }
+    
+    public function hotels() 
+    {
+        $data = [
+            'judul' => 'Slogan abcdefg hijklmn lalalala',
+            'title' => 'Judul',
+            'message' => 'message',
+        ];
+        return view('general/v_hotel', $data);
+    }
 }
